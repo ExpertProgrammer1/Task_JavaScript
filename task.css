@@ -1,0 +1,35 @@
+    .Div1{
+        border: 2px solid black;
+        border-radius: 90px;
+        background-color:#46e8e8;
+        text-align: center;
+        width: 150px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 150px;
+        margin-left: 300px;    
+        }
+    .Div2 {
+            text-align: center;
+
+            border: 2px solid black;
+            border-radius: 90px;
+            width: 130px;
+            background-color:#218989;
+        }
+     .Div3{
+        text-align: center;
+
+            border: 2px solid black;
+            border-radius: 90px;
+            width: 90px; ;
+            background-color:#a9b3b3
+        }
+     .Div4 {
+        text-align: center;
+
+            border: 2px solid black;
+            border-radius: 90px;
+            width: 70px; ;
+            background-color: rgb(163, 227, 67)
+        }
