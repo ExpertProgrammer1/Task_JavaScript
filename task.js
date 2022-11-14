@@ -7,6 +7,7 @@ async function ToDoListURL(myFatherDiv,countDiv,data){
         let link =  document.createElement("a");
         link.setAttribute("class","link");
         link.setAttribute("href","https://"+data[item].url)
+        link.setAttribute( "target","_blank")
         link.innerHTML ="Site Url: "+ data[item].name+"</br>"
         newDiv.appendChild(link)
         myFatherDiv.appendChild(newDiv);
@@ -24,4 +25,6 @@ let body = document.getElementsByTagName("body")[0];
     fetch("task.json")
     .then(response => response.json())
     .then(data=>ToDoListURL(body,countDiv,data) );
-   
+  
+  
+
